@@ -35,6 +35,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 1. install mongoose.
 2. install zod
+3. all time ni chalti, continue ni chalti, jab request ati ha tab hi chalti ha bus.
+   database connection is not connnected all time,
+   bar request pe dobara db connect hoti
+
+check if db connected if not then connect else use it .
